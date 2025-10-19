@@ -1,0 +1,9 @@
+[project]
+name = "watercooler-backend"
+version = "0.0.1"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+]
+[tool.pyprojectx]  # (no-op, just placeholder to keep tools happy)
